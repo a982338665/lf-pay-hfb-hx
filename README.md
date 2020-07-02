@@ -106,3 +106,8 @@
  ##3.2结果查询：
     
     视文档而定
+
+#4.注意：
+    
+    lf-pay-hfb-hx\src\main\java\com\ziniu\pay\conf\HFBConf.java
+    上面的配置项，可以提到application.properties中，需要修改
