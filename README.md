@@ -1,12 +1,12 @@
 # lf-pay-hfb-hx
 汇付宝及华夏银行转账对接
 
-#1.test目录：
+# 1.test目录：
     
     1.test目录下，分别是各类基初数据的准备，文件存在于lf-pay-hfb-hx\src\main\resources\data
     2.需要分开执行将基础数据导入
     
-#2.汇付宝测试用例：
+# 2.汇付宝测试用例：
 
 ## 2.1汇付宝-支付：
     
@@ -79,8 +79,8 @@
                 ]
             }
         }
-#3.华夏银行测试用例：
-##3.1 公对私转账：
+# 3.华夏银行测试用例：
+## 3.1 公对私转账：
     
     url:http://localhost:8888/websocket/sendMessage
     param:
@@ -103,11 +103,11 @@
             }
         }
  
- ##3.2结果查询：
+ ## 3.2结果查询：
     
     视文档而定
 
-#4.注意：
+# 4.注意：
     
     lf-pay-hfb-hx\src\main\java\com\ziniu\pay\conf\HFBConf.java
     上面的配置项，可以提到application.properties中，需要修改
